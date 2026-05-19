@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>benim_otonom_robotum</name>
+  <version>0.0.0</version>
+  <description>Otonom Robot Paketi</description>
+  <maintainer email="gelistirici@todo.todo">Gelistirici</maintainer>
+  <license>Apache-2.0</license>
+  
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
